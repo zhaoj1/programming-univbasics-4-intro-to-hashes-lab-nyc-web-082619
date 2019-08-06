@@ -20,7 +20,7 @@ end
 def id_generator
   # return a hash with a key :id assigned to positive integer
   generator_hash = {
-    :symbol1 => 1.integer
+    :symbol1 => 1
   }
 end
 
@@ -34,7 +34,7 @@ end
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
   if hash[key]
-    hash[key] = 1
+    puts hash[key]
   end
 end
 
